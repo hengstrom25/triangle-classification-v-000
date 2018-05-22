@@ -5,7 +5,7 @@ class Triangle
     @s2 = s2
     @s3 - s3
     
-    if s1 >= (s2 + s3) || side_two >= (side_one + side_three) || side_three >= (side_two + side_one)
+    if s1 >= (s2 + s3) || s2 >= (s1 + s3) || s3 >= (s1 + s2)
       raise TriangleError
     end
   end
