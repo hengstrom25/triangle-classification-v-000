@@ -8,7 +8,7 @@ class Triangle
   
 class TriangleError < StandardError
     
-    def TriangleError
+    def message
       "Your triangle is invalid."
     end
   end
