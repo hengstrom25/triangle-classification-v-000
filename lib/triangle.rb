@@ -6,6 +6,8 @@ class Triangle
     @side_three - side_three
     
     if @side_one > (side_two + side_three)
+      raise TriangleError
+    end
   end
   
   def kind
