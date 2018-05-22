@@ -10,6 +10,7 @@ class Triangle
 class TriangleError < StandardError
     
     def TriangleError
+      "Your triangle is invalid."
     end
   end
 end
