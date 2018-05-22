@@ -9,7 +9,7 @@ class Triangle
       raise TriangleError
     end
     
-    if s1 <= 1
+    if s1 <= 0 
   end
   
   def kind
